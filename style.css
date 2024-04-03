@@ -135,6 +135,11 @@ li a:hover {
 
 }
 
+.clientes--img {
+  width: 200px;
+  height: 200px;
+}
+
 #servicos {
   display: flex;
   flex-direction: row;
