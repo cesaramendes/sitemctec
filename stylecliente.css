@@ -12,9 +12,17 @@ header {
     text-align: center;
     color: white;
     display: flex;
-    justify-self: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
+}
+
+.logomctec--img {
+    width: 300px;
+    height: 200px;
+    
 }
 
 main {
@@ -29,7 +37,6 @@ section {
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    /* width: 36.5rem; */
     height: 32.5625rem;
     border-radius: 0.3125rem;
     border: 1px solid rgba(0, 0, 0, 0.00);
@@ -125,4 +132,12 @@ footer {
     background-color: black;
     margin-top: 30px;
 
+}
+
+
+@media (min-width: 768px) {
+    body {
+        /* background-color: rgb(5, 110, 159); */
+
+    }
 }
