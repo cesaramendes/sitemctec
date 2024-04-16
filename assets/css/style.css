@@ -37,9 +37,12 @@
 	font-size: 1rem;
 }
 
-.cabecalho ul li:first-child {
-	font-weight: bold;
-}
+.cabecalho a {
+	text-decoration: none;
+	color: black;
+} 
+
+
 
 .bg-intro {
 	background: url('../imgs/bg-intro.jpg') no-repeat center center/cover;
