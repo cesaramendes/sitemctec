@@ -14,7 +14,7 @@ function enviarWhatsApp() {
 		const mensagem = `Nome: ${nome}\nEmail: ${email}\nDispositivo: ${dispositivo}\nModelo: ${modelo}\nDescrição do problema: ${problema}`;
 
 		// Substitua 'SEU_NUMERO' pelo seu número de telefone com código do país e código de área, sem espaços, sinais de adição ou caracteres especiais
-		const numeroWhatsApp = '558488533477';
+		const numeroWhatsApp = '5584988533477';
 		const mensagemWhatsApp = encodeURIComponent(mensagem);
 
 		// Redirecionar para o WhatsApp com a mensagem preenchida
