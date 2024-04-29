@@ -192,6 +192,30 @@
 	max-width: 100%;
 }
 
+.planos-box {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.planos-box article {
+	flex: 1 1 320px;
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 20px;
+}
+
+.planos-box p {
+	display: flex;
+	flex-direction: column;
+}
+
+.planos-box .titanium {
+	background: #1155cc;
+	color: #fff;
+}
+
 .contato p {
 	font-family: 'roboto', sans-serif;
 	font-size: 1.2rem;
