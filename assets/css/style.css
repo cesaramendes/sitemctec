@@ -103,7 +103,7 @@
 	line-height: 1.4;
 }
 
-.sobre-texto p + p {
+.sobre-texto p+p {
 	margin-top: 20px;
 }
 
@@ -163,7 +163,7 @@
 	line-height: 1.4;
 }
 
-.texto-localizacao p + p {
+.texto-localizacao p+p {
 	margin-top: 20px;
 }
 
@@ -199,7 +199,8 @@
 
 .planos-box article {
 	flex: 1 1 320px;
-	background: #f9f9f9;
+	background: #aca7e9;
+	border: 3px solid rgb(4, 4, 4);
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -208,7 +209,9 @@
 
 .planos-box p {
 	display: flex;
+	padding: 1rem;
 	flex-direction: column;
+
 }
 
 .planos-box .titanium {
@@ -222,7 +225,7 @@
 	line-height: 1.4;
 }
 
-.contato p + p {
+.contato p+p {
 	margin-top: 20px;
 }
 
@@ -232,11 +235,15 @@
 
 .intro-orcamento {
 	margin-top: 60px;
+	border: 3px solid rgb(4, 4, 4);
+	padding: 1rem;
+	border-radius: 1%;
 }
 
 .intro-orcamento h2 {
 	color: #fff;
-	background: #000411;
+	background: #183464;
+	text-align: center;
 	padding: 10px;
 	padding-left: 30px;
 	border-radius: 10px;
@@ -253,7 +260,7 @@
 }
 
 .intro-orcamento label {
-	color: #000;
+	color: #183464;
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
 	font-weight: 500;
